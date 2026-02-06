@@ -43,8 +43,8 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 from(components["release"])
                 groupId = "com.github.arjunkcdecoders"
-                artifactId = "hi_sdk"
-                version = "1.0.5"
+                artifactId = "my_sdk"
+                version = "1.0.1"
             }
         }
     }
