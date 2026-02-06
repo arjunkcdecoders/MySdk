@@ -27,7 +27,7 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
-
+//new
     publishing {
         singleVariant("release") {
             withSourcesJar()
@@ -51,7 +51,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.arjunkcdecoders"
                 artifactId = "my_sdk"
-                version = "1.0.3"
+                version = "1.0.4"
             }
         }
     }
